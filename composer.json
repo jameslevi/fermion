@@ -1,0 +1,15 @@
+{
+    "name": "jameslevi/fermion",
+    "description": "Is a simple SQL query builder library for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "jameslevi/string": "dev-main",
+        "jameslevi/hadron": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Graphite\\Component\\Fermion\\": "src/"
+        }
+    }
+}
